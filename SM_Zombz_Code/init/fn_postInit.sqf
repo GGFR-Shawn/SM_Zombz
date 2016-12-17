@@ -13,8 +13,6 @@ diag_log format["SM_Zombz %1: Starting postInit!", _version];
 
 if !(isMultiplayer) exitWith {};
 
-[] call SM_CompileConfig;
-
 SM_System_ThreadID = 420;
 SM_System_Tasks = [];
 SM_System_TasksDelay = [];
@@ -126,7 +124,7 @@ if (isDedicated) then
 	SM_HordeMaxDistance = ["SM_HordeMaxDistance", 150] call SM_ConfigFetch;
 	SM_ZombieSide = call 
 	{
-		_ret = = "";
+		_ret = "";
 		switch (toLower (["SM_ZombieSide", "civilian"] call SM_ConfigFetch)) do 
 		{
 			case "west": { _ret = west }; 
