@@ -11,7 +11,7 @@ NOTE: This work is provided AS-IS.
 
 * I will NOT help you develop something from this.
 * I will NOT help you incorporate this into your own mod.
-* I will NOT help you work out why something isn't working
+* I will NOT help you work out why something isn't working.
 
 Just to emphasise on this, I do NOT wish to babysit for the community any more, I've exhausted myself catering for everyone and I simply cannot do it anymore and enjoy myself at the same time.
 
